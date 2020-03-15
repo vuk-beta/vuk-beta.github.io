@@ -1,0 +1,63 @@
+body {
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	font-family: 'Quicksand', sans-serif;
+ 	font-weight: 500;
+ 	color: #E9C46A;
+ 	text-align: center;
+}
+
+
+
+
+.page {
+	
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	padding: 10px 
+}
+
+h1 {
+color: maroon;
+margin-top: 10px;
+}
+
+.version {
+ text-align: left;
+ vertical-align: top;
+ color: grey;
+ margin-top: 5px;
+}
+
+.music {
+	
+}
+/*NAVBAR*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(38, 70, 83, .5);
+  border-radius: 25px;
+  text-align: center;
+}
+
+li {
+float: left;
+display: inline-block;
+}
+
+li a {
+  display: block;
+  color: #E9C46A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgba(42, 157, 143, 0.5);
+}
+
